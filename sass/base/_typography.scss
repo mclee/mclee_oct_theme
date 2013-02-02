@@ -24,7 +24,11 @@ body > header h1 {
 }
 body > header h2 {
   font-family: $header-subtitle-font-family;
-  font-size: 0.8em
+  font-size: 0.8em;
+}
+
+header hgroup h2 {
+  font-size: 0.8em;
 }
 
 body {
@@ -35,6 +39,9 @@ body {
 h1 {
   font-size: 2em;
   line-height: 1.2em;
+}
+#content .blog-index article h1.entry-title {
+  font-size: 1.8em;
 }
 
 @media only screen and (min-width: 992px) {
